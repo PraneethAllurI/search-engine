@@ -17,11 +17,11 @@ function Header() {
 
 
     return (
-        <header className="sticky top-0 bg-white">
+        <header className="sticky top-0 pt-2 md:pt-0 bg-white">
             <div className="flex w-full p-0 items-center lg:p-2">
                 <h1
                     onClick={() => router.push("/")}
-                    className=" font-mono... text-xl border-blue 
+                    className=" font-mono... text-sm md:text-xl border-blue 
         rounded-full p-2 px-5 mx-2 bg-blue-500 cursor-pointer">explore.it</h1>
                 <form className="flex flex-grow border-2 px-6 py-3 border-blue-200  rounded-full shadow-lg
             max-w-3xl items-center ">

@@ -31,13 +31,13 @@ export default function Home() {
         <div className=" space-x-4">
           <p
             onClick={() => router.push("/about")}
-            className="link text-lg rounded-full py-1 px-3 bg-blue-100">About</p>
+            className="link text:sm md:text-lg rounded-full py-1 px-3 bg-blue-100">About</p>
         </div>
 
         <div className="flex space-x-4 items-center">
           <p
             onClick={() => router.push("/gmail")}
-            className="link rounded-full bg-blue-100 py-1 px-3 text-lg">Gmail</p>
+            className="link rounded-full text:sm bg-blue-100 py-1 px-3 md:text-lg">Gmail</p>
 
           {/* Iocn */}
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full
@@ -53,13 +53,13 @@ export default function Home() {
       flex-grow w-4/5 sm:mt-40">
         <h1
           onClick={() => router.push("/about")}
-          className=" font-mono... text-5xl border-blue 
-        rounded-full p-2 px-5 pb-5 mb-7 bg-blue-500 cursor-pointer">explore.it</h1>
+          className=" font-mono... text-3xl md:text-5xl border-blue 
+        rounded-full p-2 px-5 pb-5 mb-7 bg-blue-500 cursor-pointer mt-40 md:mt-0">explore.it</h1>
         <div className="flex w-full mt-5 hover:shadow-lg
         focus-within:shadow-lg max-w-md rounded-full border border-blue-200 
         px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl
         ">
-          <SearchIcon className="h-5 ml-3 text-blue-500 " />
+          <SearchIcon className="h-5 ml-3 text-blue-500" />
           <input
             placeholder="travel here! in order to learn about it."
             ref={searchInputRef}
