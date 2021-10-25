@@ -11,7 +11,7 @@ function Gmail() {
             <div>
                 <h1 className="text-2xl text-center mt-72 text-green-500">Project in Progress!
                     <p className="text-blue-500">will attach Gmail page when it get Finished</p>
-                    <p className="text-red-600">Expected by oct-30 2021</p>
+                    <p className="text-red-600">Expected by nov-30 2021</p>
                 </h1>
             </div>
         </div>

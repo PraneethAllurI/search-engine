@@ -1,4 +1,4 @@
-import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
+import { MicrophoneIcon, SearchIcon, XIcon, UserCircleIcon } from "@heroicons/react/solid";
 import { useRouter } from "next/router";
 import { useRef } from "react"
 import Avatar from "./Avatar";
@@ -38,12 +38,10 @@ function Header() {
                     <button
                         hidden type="submit" onClick={search}>Search</button>
                 </form>
-                <Avatar
-                    className="ml-auto"
-                    url="https://louisville.edu/enrollmentmanagement/images/person-icon/image" />
+                <UserCircleIcon className="ml-auto h-12 text-blue-500" />
             </div>
 
-            {/* <HeaderOptions /> */}
+            <HeaderOptions />
         </header>
     )
 }

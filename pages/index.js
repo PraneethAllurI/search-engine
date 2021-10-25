@@ -23,7 +23,7 @@ export default function Home() {
       <Head>
         <title>Explore engine.com</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head>   
       {/* header */}
       <header className="flex w-full p-5 justify-between items-center
       text-sm text-gray-700
