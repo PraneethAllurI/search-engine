@@ -34,4 +34,4 @@ yarn-error.log*
 .vercel
 
 #api keys
-.keys
+.keys.js
